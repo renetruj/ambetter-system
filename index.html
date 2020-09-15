@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ambetter Design System Elements</title>
+  <!-- <link rel="shortcut icon" href="https://material.io/favicon.ico"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"> -->
+  <link rel="stylesheet" href="material.css">
+  <!-- original <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"> -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+
+
+
+</head>
+
+<body id="materialui">
+
+  <div class="demo-grid mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--span-12-mobile" style="text-align:center;">
+        <img src="https://www.ambetterhealth.com/content/dam/centene/Centene%20Corporate/web-images/ambetter/logo.png" alt="ambetter" width="200px"/>
+
+        <h1 class="jumbo">H1 Jumbo Header</h1>
+        <p class="sm-body">Responsive version This copy is small 16px and is used for subtitles under larger header. Stand out copy.</p>
+
+      </div>
+
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-12-tablet  mdc-layout-grid__cell--span-0-mobile" >
+      </div>
+
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-12-tablet mdc-layout-grid__cell--span-12-mobile" >
+
+<form aria-label="Contact information">
+      <div class="text-field-container standard-field" aria-label="Add in First Name in Form">
+        <label>First Name</label>
+        <input type="text" name="Input" />
+          <small>Sample: xxx-xx-1234</small>
+      </div>
+
+      <div class="text-field-container standard-field" aria-label="Add in Social Security Number">
+        <label for="mbrid">Last 4 of SSN</label>
+        <input type="tel" maxlength="4" name="mbrid" class="ssn" />
+        <small>Sample: xxx-xx-1234</small>
+      </div>
+      <div class="text-field-container standard-field select" aria-label="Add Your State">
+                <!-- <label>State</label><br /> -->
+        <select tabindex="0">
+              <option selected disabled>Your State</option>
+                          <option value="audi">Not Listed</option>
+          <option value="volvo">Arizona</option>
+          <option value="saab">Florida</option>
+          <option value="opel">Texas</option>
+
+        </select>
+      </div>
+</form>
+</div><!--
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-12-tablet  mdc-layout-grid__cell--span-0-mobile" >
+      </div>
+
+
+
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-12-tablet  mdc-layout-grid__cell--span-0-mobile" >
+      </div>
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-12-tablet mdc-layout-grid__cell--span-12-mobile" >
+      <div class="mdc-text-field dob">
+        <input  id="dob" class="mdc-text-field__input" type="text">
+        <label class="mdc-floating-label" for="dob">Name on Card</label>
+        <div class="mdc-line-ripple"></div>
+          </div>
+      </div>
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-12-tablet" >
+      <div class="mdc-text-field dob">
+      <input  id="cc" name="cc" class="mdc-text-field__input" type="tel">
+      <label class="mdc-floating-label" for="cc">Credit Card</label>
+      <div class="mdc-line-ripple"></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-2-mobile" >
+    <div class="mdc-text-field dob">
+      <input  id="dob" class="mdc-text-field__input" type="text">
+      <label class="mdc-floating-label" for="dob">Exp. Date</label>
+      <div class="mdc-line-ripple"></div>
+        </div>
+      <div class="mdc-text-field-helper-line">
+        <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg" id="text-field-filled-helper-text">mm/yy</p>
+    </div>
+  </div>
+  <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-2-mobile" >
+  <div class="mdc-text-field dob">
+    <input  id="dob" class="mdc-text-field__input" maxlength="3" type="tel">
+    <label class="mdc-floating-label" for="dob">Code</label>
+    <div class="mdc-line-ripple"></div>
+      </div>
+    <div class="mdc-text-field-helper-line">
+      <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg" id="text-field-filled-helper-text">Back of card</p>
+  </div>
+</div>
+
+<div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop mdc-layout-grid__cell--span-0-mobile" >
+</div>
+
+<div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-0-mobile" >
+</div>-->
+<div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-0-mobile" >
+</div>
+<div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-12-tablet" >
+  <button class="mdc-button mdc-button--unelevated" id="btSubmit" >Pay Premium</button>
+  <br />
+</div>
+
+<div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-0-mobile" >
+</div>
+
+
+
+<!-- close grid -->
+</div>
+</div>
+
+
+
+<div class="demo-grid mdc-layout-grid">
+  <div class="mdc-layout-grid__inner">
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--span-12-mobile">
+        <h1>H1 Header</h1>
+        <p class="lg-body">This is copy is large 20px and is used for subtitles under larger header. Stand out copy.</p>
+
+        <h2>H2 Information</h2>
+        <p class="lg-body">This is copy is large 20px and is used for subtitles under larger header. Stand out copy.</p>
+
+        <h3>Maximum out of Pocket
+        </h3>
+        <p> This is baseline 18px copy that is to be used for standard web  <strong>labels</strong> copy across the board for better readability.</p>
+        <p> This is baseline 18px copy that is to be used for standard web copy across the board for better readability.</p>
+
+        <h4>H4 Information</h4>
+        <p class="sm-body">This is small copy 16px and is used for <b>labels</b>, captions, legalese text that doesn't need to be big but still readable.</p>
+        <h5>H5 Information</h5>
+        <p class="sm-body">This is small copy 16px and is used for <b>labels</b>, captions, legalese text that doesn't need to be big but still readable.</p>
+
+      </div>
+
+
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--span-12-mobile">
+        <h1>H1 Information</h1>
+        <p class="lg-body">This is copy is large 20px and is used for subtitles under larger header. Stand out copy.</p>
+
+        <h2>H2 Information</h2>
+        <p class="lg-body">This is copy is large 20px and is used for subtitles under larger header. Stand out copy.</p>
+
+        <h3>H3 Information</h3>
+        <p> This is baseline 18px copy that is to be used for standard web copy across the board for better readability.</p>
+        <p> This is baseline 18px copy that is to be used for standard web copy across the board for better readability.</p>
+
+        <h4>H4 Information</h4>
+        <p class="sm-body">This is small copy 16px and is used for labels, captions, legalese text that doesn't need to be big but still readable.</p>
+        <h5>H5 Information</h5>
+        <p class="sm-body">This is small copy 16px and is used for labels, captions, legalese text that doesn't need to be big but still readable.</p>
+
+      </div>
+
+      <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--span-12-mobile">
+      <h3>Health Interests</h3>
+      <span>Let's customize your experience. Tell us about what you are most interested in for your medical and health journey.</span>
+      <div class="text-field-container">
+        <ul class="mdc-list" role="group" aria-label="List with checkbox items">
+          <li class="mdc-list-item" role="checkbox" aria-checked="false">
+            <span class="mdc-list-item__graphic">
+              <div class="mdc-checkbox">
+                <input type="checkbox"
+                        class="mdc-checkbox__native-control"
+                        id="demo-list-checkbox-item-1"  />
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark"
+                        viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark-path"
+                          fill="none"
+                          d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                  </svg>
+                  <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+              </div>
+            </span>
+            <label class="mdc-list-item__text" for="demo-list-checkbox-item-1">Improve physical health</label>
+          </li>
+          <li class="mdc-list-item" role="checkbox" aria-checked="false" tabindex="0">
+            <span class="mdc-list-item__graphic">
+                <div class="mdc-checkbox">
+                    <input type="checkbox"
+                            class="mdc-checkbox__native-control"
+                            id="demo-list-checkbox-item-2" name="demo-list-checkbox-item-2"
+                             />
+                    <div class="mdc-checkbox__background">
+                      <svg class="mdc-checkbox__checkmark"
+                            viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path"
+                              fill="none"
+                              d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                      </svg>
+                      <div class="mdc-checkbox__mixedmark"></div>
+                    </div>
+                  </div>
+            </span>
+            <label class="mdc-list-item__text" for="demo-list-checkbox-item-2">Use free benefits</label>
+          </li>
+          <li class="mdc-list-item" role="checkbox" aria-checked="false">
+            <span class="mdc-list-item__graphic">
+                <div class="mdc-checkbox">
+                    <input type="checkbox"
+                            class="mdc-checkbox__native-control"
+                            id="demo-list-checkbox-item-3" name="demo-list-checkbox-item-3"  />
+                    <div class="mdc-checkbox__background">
+                      <svg class="mdc-checkbox__checkmark"
+                            viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path"
+                              fill="none"
+                              d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                      </svg>
+                      <div class="mdc-checkbox__mixedmark"></div>
+                    </div>
+                  </div>
+            </span>
+            <label class="mdc-list-item__text" for="demo-list-checkbox-item-3">Virtual care</label>
+          </li>
+          <li class="mdc-list-item" role="checkbox" aria-checked="true" tabindex="0">
+            <span class="mdc-list-item__graphic">
+                <div class="mdc-checkbox">
+                    <input type="checkbox"
+                            class="mdc-checkbox__native-control"
+                            id="demo-list-checkbox-item-2"
+                             />
+                    <div class="mdc-checkbox__background">
+                      <svg class="mdc-checkbox__checkmark"
+                            viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path"
+                              fill="none"
+                              d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                      </svg>
+                      <div class="mdc-checkbox__mixedmark"></div>
+                    </div>
+                  </div>
+            </span>
+            <label class="mdc-list-item__text" for="demo-list-checkbox-item-2">My medical spending</label>
+          </li>
+        </ul>
+      </div>
+      </div>
+
+
+
+
+
+            <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-12-tablet">
+              <div class="mdc-card demo-card">
+                <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                  <div class="mdc-card__media mdc-card__media--16-9 demo-card__media" style="background-image: url(&quot;https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg&quot;);"></div>
+                  <div class="demo-card__primary">
+                    <h3 class="demo-card__title">Budget Planning</h3>
+                    <span class="demo-card__subtitle lg-body">Fidelity</span>
+                  </div>
+                  <div class="demo-card__secondary sm-body">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                </div>
+                <div class="mdc-card__actions">
+                  <div class="mdc-card__action-buttons">
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                  </div>
+                  <div class="mdc-card__action-icons">
+                    <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                      <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                      <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                    </button>
+                    <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button>
+                    <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-12-tablet">
+              <div class="mdc-card demo-card">
+                <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                  <div class="mdc-card__media mdc-card__media--16-9 demo-card__media" style="background-image: url(&quot;https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg&quot;);"></div>
+                  <div class="demo-card__primary">
+                    <h3 class="demo-card__title">Earn More Rewards</h3>
+                      <span class="demo-card__subtitle lg-body">MyHealthPays</span>
+                  </div>
+                  <div class="demo-card__secondary sm-body">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                </div>
+                <div class="mdc-card__actions">
+                  <div class="mdc-card__action-buttons">
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                  </div>
+                  <div class="mdc-card__action-icons">
+                    <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                      <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                      <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                    </button>
+                    <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button>
+                    <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-12-tablet">
+              <div class="mdc-card demo-card">
+                <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                  <div class="mdc-card__media mdc-card__media--16-9 demo-card__media" style="background-image: url(&quot;https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg&quot;);"></div>
+                  <div class="demo-card__primary">
+                    <h3 class="demo-card__title">Free Rides to the Doctor</h3>
+                  <span class="demo-card__subtitle lg-body">Lyft</span>
+                  </div>
+                  <div class="demo-card__secondary sm-body">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                </div>
+                <div class="mdc-card__actions">
+                  <div class="mdc-card__action-buttons">
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                  </div>
+                  <div class="mdc-card__action-icons">
+                    <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                      <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                      <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                    </button>
+                    <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button> -->
+                    <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+                        <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-12-tablet">
+                          <div class="mdc-card demo-card">
+                            <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                              <div class="mdc-card__media mdc-card__media--16-9 demo-card__media" style="background-image: url(&quot;https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg&quot;);"></div>
+                              <div class="demo-card__primary">
+                                <h3 class="demo-card__title">Budget Planning</h3>
+                                <span class="demo-card__subtitle lg-body">Fidelity</span>
+                              </div>
+                              <div class="demo-card__secondary sm-body">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                            </div>
+                            <div class="mdc-card__actions">
+                              <div class="mdc-card__action-buttons">
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                              </div>
+                              <div class="mdc-card__action-icons">
+                                <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                  <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                                  <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                                </button>
+                                <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button>
+                                <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button> -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-12-tablet">
+                          <div class="mdc-card demo-card">
+                            <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                              <div class="mdc-card__media mdc-card__media--16-9 demo-card__media" style="background-image: url(&quot;https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg&quot;);"></div>
+                              <div class="demo-card__primary">
+                                <h3 class="demo-card__title">Earn More Rewards</h3>
+                                  <span class="demo-card__subtitle lg-body">MyHealthPays</span>
+                              </div>
+                              <div class="demo-card__secondary sm-body">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                            </div>
+                            <div class="mdc-card__actions">
+                              <div class="mdc-card__action-buttons">
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                              </div>
+                              <div class="mdc-card__action-icons">
+                                <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                  <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                                  <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                                </button>
+                                <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button>
+                                <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button> -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-12-tablet">
+                          <div class="mdc-card demo-card">
+                            <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                              <div class="mdc-card__media mdc-card__media--16-9 demo-card__media" style="background-image: url(&quot;https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg&quot;);"></div>
+                              <div class="demo-card__primary">
+                                <h3 class="demo-card__title">Free Rides to the Doctor</h3>
+                              <span class="demo-card__subtitle lg-body">Lyft</span>
+                              </div>
+                              <div class="demo-card__secondary sm-body">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                            </div>
+                            <div class="mdc-card__actions">
+                              <div class="mdc-card__action-buttons">
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                              </div>
+                              <div class="mdc-card__action-icons">
+                                <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                  <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                                  <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                                </button>
+                                <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button> -->
+                                <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button> -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--span-12-tablet">
+                          <div class="mdc-card demo-card">
+                            <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                              <div class="mdc-card__media mdc-card__media--16-9 demo-card__media" style="background-image: url(&quot;https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg&quot;);"></div>
+                              <div class="demo-card__primary">
+                                <h3 class="demo-card__title">Free Rides to the Doctor</h3>
+                              <span class="demo-card__subtitle lg-body">Lyft</span>
+                              </div>
+                              <div class="demo-card__secondary sm-body">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                            </div>
+                            <div class="mdc-card__actions">
+                              <div class="mdc-card__action-buttons">
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                              </div>
+                              <div class="mdc-card__action-icons">
+                                <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                  <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                                  <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                                </button>
+                                <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button> -->
+                                <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button> -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--span-12-tablet">
+                          <div class="mdc-card demo-card">
+                            <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                              <div class="mdc-card__media mdc-card__media--16-9 demo-card__media" style="background-image: url(&quot;https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg&quot;);"></div>
+                              <div class="demo-card__primary">
+                                <h3 class="demo-card__title">Free Rides to the Doctor</h3>
+                              <span class="demo-card__subtitle lg-body">Lyft</span>
+                              </div>
+                              <div class="demo-card__secondary sm-body">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                            </div>
+                            <div class="mdc-card__actions">
+                              <div class="mdc-card__action-buttons">
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                              </div>
+                              <div class="mdc-card__action-icons">
+                                <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                  <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                                  <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                                </button>
+                                <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button> -->
+                                <!-- <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button> -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+                  <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-12-tablet" >
+
+                    <h1>My Plan</h1>
+                    <h1>My Health</h1>
+                    <h1>Find Care</h1>
+                    <h1>Activity</h1>
+                    <h1>Pay Bill</h1>
+
+                  </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Required MDC Web JavaScript library -->
+
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+  <!-- Instantiate single textfield component rendered in the document -->
+
+  <script>
+    //enable button after password filled inspect
+
+    function manage(txt) {
+      var bt = document.getElementById('btSubmit');
+      if (txt.value != '') {
+        bt.disabled = false;
+      } else {
+        bt.disabled = true;
+      }
+    }
+
+    //toggle password
+
+    // const togglePassword = document.getElementById('togglePassword');
+    //
+    // const showOrHidePassword = () => {
+    //   const password = document.getElementById('txt');
+    //   if (password.type === 'password') {
+    //     password.type = 'text';
+    //   } else {
+    //     password.type = 'password';
+    //   }
+    // };
+    //
+    // togglePassword.addEventListener('change', showOrHidePassword);
+  </script>
+
+  <script>
+    // init selects
+    [].forEach.call(document.querySelectorAll('.mdc-select'), function(el) {
+      const select = new mdc.select.MDCSelect(el);
+    });
+
+    // init textfields
+    [].forEach.call(document.querySelectorAll('.mdc-text-field'), function(el) {
+      const textField = new mdc.textField.MDCTextField(el);
+    });
+
+    // init checkbox
+    mdc.checkbox.MDCCheckbox.attachTo(document.querySelector('.mdc-checkbox'));
+  </script>
+
+  <script>
+    // init selects
+    [].forEach.call(document.querySelectorAll('.mdc-select'), function(el) {
+      const select = new mdc.select.MDCSelect(el);
+    });
+
+    // init textfields
+    [].forEach.call(document.querySelectorAll('.mdc-text-field'), function(el) {
+      const textField = new mdc.textField.MDCTextField(el);
+    });
+
+    // init checkbox
+    mdc.checkbox.MDCCheckbox.attachTo(document.querySelector('.mdc-checkbox'));
+  </script>
+
+
+
+
+</body>
+
+</html>

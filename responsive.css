@@ -1,0 +1,14 @@
+
+
+@media screen and (max-width: 960px) {
+
+h1.jumbo, h1 {
+    font-size: 32px !important;
+    line-height: 48px !important;
+    font-weight: 500;
+    }
+   .mdc-layout-grid__cell--span-0-mobile {
+     display:none !important;
+   }
+
+}
