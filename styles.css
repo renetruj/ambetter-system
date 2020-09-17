@@ -47,12 +47,14 @@ h1,h2,h3,h4, h5 {
 
 }
   p {margin-bottom:24px;}
-h1.jumbo {font-size: 36px !important; line-height: 60px !important; }
-h1 {font-size: 36px; line-height: 44px ;  }
-h2 {font-size: 29px !important; line-height: 40px !important;  }
-h3 {font-size: 23px !important; line-height: 36px !important;  }
-h4 {font-size: 20px !important; line-height: 32px !important;  }
-h5 {font-size: 18px !important; line-height: 28px !important;  }
+/* h1.jumbo {font-size: 36px !important; line-height: 60px !important; } */
+h1 {font-size: 36px; line-height: 52px;  }
+h2 {font-size: 32px; line-height: 48px;  }
+h3 {font-size: 29px; line-height: 44px;  }
+h4 {font-size: 23px; line-height: 36px;  }
+h5 {font-size: 20px; line-height: 32px;  }
+
+
 
 
 

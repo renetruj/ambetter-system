@@ -7,6 +7,14 @@ h1.jumbo, h1 {
     line-height: 48px !important;
     font-weight: 500;
     }
+
+    h1 {font-size: 32px !important; line-height: 48px !important;  }
+    h2 {font-size: 29px !important; line-height: 44px !important;  }
+    h3 {font-size: 26px !important; line-height: 40px !important;  }
+    h4 {font-size: 20px !important; line-height: 32px !important;  }
+    h5 {font-size: 18px !important; line-height: 28px !important;  }
+
+
    .mdc-layout-grid__cell--span-0-mobile {
      display:none !important;
    }
