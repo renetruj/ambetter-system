@@ -70,8 +70,11 @@ h5 {font-size: 20px; line-height: 32px;  }
 
 
 .lg-body {font-size: 20px !important; line-height: 32px !important;  }
-p {font-size: 16px !important; line-height: 24px !important; color:#333333; }
+p {font-size: 16px; line-height: 24px; color:#333333; }
 .sm-body {font-size: 16px !important; line-height: 24px !important;  }
+
+.lg-caption {font-size: 14px !important; line-height: 20px !important;  }
+.caption {font-size: 13px !important; line-height: 18px !important;  }
 
 span {font-size: 1rem;}
 
