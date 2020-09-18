@@ -48,6 +48,8 @@ h1,h2,h3,h4, h5 {
 }
   p {margin-bottom:24px;}
 /* h1.jumbo {font-size: 36px !important; line-height: 60px !important; } */
+
+
 h1 {font-size: 36px; line-height: 52px;  }
 h2 {font-size: 32px; line-height: 48px;  }
 h3 {font-size: 29px; line-height: 44px;  }
@@ -57,9 +59,18 @@ h5 {font-size: 20px; line-height: 32px;  }
 
 
 
+.static-fonts h1 {font-size: 32px !important; line-height: 48px !important;  }
+.static-fonts h2 {font-size: 29px !important; line-height: 44px !important;  }
+.static-fonts h3 {font-size: 26px !important; line-height: 40px !important;  }
+.static-fonts h4 {font-size: 20px !important; line-height: 32px !important;  }
+.static-fonts h5 {font-size: 18px !important; line-height: 28px !important;  }
+
+.static-fonts .lg-body {font-size: 18px !important; line-height: 28px !important;  }
+.static-fonts .sm-body {font-size: 16px !important; line-height: 24px !important;  }
+
 
 .lg-body {font-size: 20px !important; line-height: 32px !important;  }
-p {font-size: 18px !important; line-height: 28px !important; color:#333333; }
+p {font-size: 16px !important; line-height: 24px !important; color:#333333; }
 .sm-body {font-size: 16px !important; line-height: 24px !important;  }
 
 span {font-size: 1rem;}
